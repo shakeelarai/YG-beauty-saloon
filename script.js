@@ -39,3 +39,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Contact Form Submit Handler
+function handleFormSubmit(event) {
+    event.preventDefault();
+    const btn = document.getElementById('form-submit-btn');
+    const successMsg = document.getElementById('form-success-msg');
+    const form = document.getElementById('contact-form');
+
+    // Button loading state
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    btn.disabled = true;
+
+    // Simulate sending (replace with actual backend/email service if needed)
+    setTimeout(() => {
+        form.reset();
+        btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+        btn.disabled = false;
+        successMsg.style.display = 'flex';
+
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+            successMsg.style.display = 'none';
+        }, 5000);
+    }, 1500);
+}
+
