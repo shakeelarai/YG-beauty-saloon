@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YG Beauty Salon & Spa | Luxury Hair Care</title>
+    <meta name="description" content="YG Beauty Salon & Spa. Experience luxury hair coloring, perms, treatments, and styling in a premium, welcoming environment.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Preload Hero Image for faster LCP -->
+    <link rel="preload" as="image" href="herosection.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-cursive">YG Beauty Salon</a>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#menu" class="nav-link">SERVICES</a></li>
+                <li><a href="#reviews" class="nav-link">REVIEWS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Image Slider -->
+    <header id="home" class="hero-slider">
+        <div class="slide bg-1 active"></div>
+        <div class="slide bg-2"></div>
+        
+        <div class="video-overlay"></div> <!-- Dark overlay for text readability -->
+
+        <div class="slider-arrows">
+            <i class="fas fa-chevron-left" id="slide-prev"></i>
+            <i class="fas fa-chevron-right" id="slide-next"></i>
+        </div>
+
+        <div class="hero-content-center">
+            <h1>PROFESSIONAL HAIR STYLING</h1>
+            <p>LET OUR EXPERTS TREAT YOU FOR YOUR SPECIAL OCCASION</p>
+            <a href="#menu" class="btn-outline">READ MORE</a>
+        </div>
+
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+        </div>
+    </header>
+
+    <!-- Appointment Banner -->
+    <div class="appointment-banner">
+        <p>IT'S REALLY EASY TO MAKE AN APPOINTMENT!</p>
+        <a href="https://ygbeautysalon.glossgenius.com" target="_blank" class="btn-dark">MAKE AN APPOINTMENT</a>
+    </div>
+
+    <!-- Menu Section (Minimalist Luxury Layout) -->
+    <section id="menu" class="menu-section">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <div class="divider"></div>
+            <p class="section-subtext">Elevate your look with our meticulously crafted services.</p>
+        </div>
+
+        <div class="menu-container">
+            
+            <!-- Category: Hair Services -->
+            <div class="menu-category">
+                <div class="category-image-wrap mini-slider">
+                    <div class="mini-slide ms-1"></div>
+                    <div class="mini-slide ms-2"></div>
+                    <div class="mini-slide ms-3"></div>
+                    <div class="mini-slide ms-4"></div>
+                </div>
+                <div class="category-content">
+                    <h3>Hair Services</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Shampoo</h4>
+                                <span class="price">$10.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Haircut</h4>
+                                <span class="price">$30.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Blow dry</h4>
+                                <span class="price">$40.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Hair Style</h4>
+                                <span class="price">$50.00+</span>
+                            </div>
+                            <p class="item-desc">Length & thickness will be added and subject to vary</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Color -->
+            <div class="menu-category reverse">
+                <div class="category-image-wrap mini-slider">
+                    <div class="mini-slide cs-1"></div>
+                    <div class="mini-slide cs-2"></div>
+                    <div class="mini-slide cs-3"></div>
+                    <div class="mini-slide cs-4"></div>
+                </div>
+                <div class="category-content">
+                    <h3>Color</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Hair Color Retouch</h4>
+                                <span class="price">$90.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Color 1 Process (Virgin Hair)</h4>
+                                <span class="price">$130.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Color Exchange 1 Process (Processed Hair)</h4>
+                                <span class="price">$160.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Double Process Color Application</h4>
+                                <span class="price">$180.00+</span>
+                            </div>
+                            <p class="item-desc">Includes Shampoo & Blow dry</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Partial Highlights</h4>
+                                <span class="price">$130.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Full Highlights</h4>
+                                <span class="price">$180.00+</span>
+                            </div>
+                            <p class="item-desc">Includes tone as needed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Scalp & Treatments -->
+            <div class="menu-category">
+                <div class="category-image-wrap mini-slider">
+                    <div class="mini-slide st-1"></div>
+                    <div class="mini-slide st-2"></div>
+                    <div class="mini-slide st-3"></div>
+                    <div class="mini-slide st-4"></div>
+                </div>
+                <div class="category-content">
+                    <h3>Scalp & Treatments</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Scalp Deep Conditioning</h4>
+                                <span class="price">$50.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Strength Deep Conditioning</h4>
+                                <span class="price">$50.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Keratin Treatments</h4>
+                                <span class="price">$100.00+ / oz</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Perms for Curl</h4>
+                                <span class="price">$150.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Perms for Straight (Relaxer)</h4>
+                                <span class="price">$160.00+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Others -->
+            <div class="menu-category reverse">
+                <div class="category-image-wrap mini-slider">
+                    <div class="mini-slide ot-1"></div>
+                    <div class="mini-slide ot-2"></div>
+                    <div class="mini-slide ot-3"></div>
+                    <div class="mini-slide ot-4"></div>
+                </div>
+                <div class="category-content">
+                    <h3>Others</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Facial Waxing (Full Face)</h4>
+                                <span class="price">$25.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Eyebrow Wax</h4>
+                                <span class="price">$15.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Lips Wax</h4>
+                                <span class="price">$10.00+</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Lips & Brow's Wax</h4>
+                                <span class="price">$20.00+</span>
+                            </div>
+                            <p class="item-desc">Other services may apply</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reviews Section (Scrolling Marquee) -->
+    <section id="reviews" class="reviews-section">
+        <div class="section-header">
+            <h2>Client Experiences</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <!-- Review Cards (Set 1) -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Francesca Isabella Morgan</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (15).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin's salon feels like home. I was working when our daughter dropped the bomb that she needed her hair professionally done...</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>yvette dacosta</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (7).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">On New Year's Eve, my day went by so quickly that I completely forgot to make an appointment... She fit me in and saved the day!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Grace Cabrera</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (1).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">I had the most incredible experience at this salon! I have very curly hair and was worried about highlights, but Yerlin was so knowledgeable.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Teezy M</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (9).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin was amazing!!! i’ve never let anyone do my hair but i trusted her and she didn’t disappoint. The experience was amazing.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>paloma mitsouras</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (10).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin did a phenomenal job on both my boyfriend and I’s hair. The place itself is super cute, clean, and welcoming!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Taina 8707</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (11).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin was amazing !!! Such a kind soul, she was able to do my hair last minute. I had a flight to catch in the AM.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>ilyk3ylaa !!</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (12).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">she did an absolutely amazing job on my hair! my hair is up to my legs it is so long and she is so nice, so reliable.</p>
+                </div>
+                
+                <!-- Review Cards (Set 2 duplicated for seamless infinite loop) -->
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>Francesca Isabella Morgan</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (15).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin's salon feels like home. I was working when our daughter dropped the bomb that she needed her hair professionally done...</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>yvette dacosta</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (7).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">On New Year's Eve, my day went by so quickly that I completely forgot to make an appointment... She fit me in and saved the day!</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>Grace Cabrera</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (1).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">I had the most incredible experience at this salon! I have very curly hair and was worried about highlights, but Yerlin was so knowledgeable.</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>Teezy M</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (9).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin was amazing!!! i’ve never let anyone do my hair but i trusted her and she didn’t disappoint. The experience was amazing.</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>paloma mitsouras</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (10).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin did a phenomenal job on both my boyfriend and I’s hair. The place itself is super cute, clean, and welcoming!</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>Taina 8707</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (11).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">Yerlin was amazing !!! Such a kind soul, she was able to do my hair last minute. I had a flight to catch in the AM.</p>
+                </div>
+
+                <div class="review-card" aria-hidden="true">
+                    <div class="review-header">
+                        <h4>ilyk3ylaa !!</h4>
+                        <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-img">
+                        <img src="imgs/unnamed (12).jpg" alt="Client Review Photo" loading="lazy">
+                    </div>
+                    <p class="review-text">she did an absolutely amazing job on my hair! my hair is up to my legs it is so long and she is so nice, so reliable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <h3>YG Beauty Salon</h3>
+                <p>Experience the pinnacle of hair care and styling in an environment that feels like home. Let us bring out the beauty in you.</p>
+                <div class="identities">
+                    <p><em>Proudly identifying as:</em></p>
+                    <span class="badge">Black-owned</span>
+                    <span class="badge">Veteran-owned</span>
+                    <span class="badge">Women-owned</span>
+                    <span class="badge">Latino-owned</span>
+                    <span class="badge">Asian-owned</span>
+                    <span class="badge">LGBTQ+ owned</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 3802 S Orlando Dr, Sanford, FL 32773</p>
+                <p><i class="fas fa-map-pin"></i> Located in: Citgo (QP46+FQ)</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+13213522628">+1 321-352-2628</a></p>
+                <p><i class="fas fa-calendar-check"></i> <a href="https://ygbeautysalon.glossgenius.com" target="_blank">Book on GlossGenius</a></p>
+                <p><i class="fas fa-globe"></i> <a href="https://ygbeautysalonhairspa.com" target="_blank">ygbeautysalonhairspa.com</a></p>
+            </div>
+            <div class="footer-col">
+                <h3>Hours</h3>
+                <p>Monday – Sunday</p>
+                <p>8:00 AM – 8:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 YG Beauty Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
